@@ -1,0 +1,34 @@
+*::after, *::before, * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.top , .bottom {
+    height: 0.85em;
+    padding: 0.25em;
+}
+
+.top {
+    background-color: #fafafa;
+
+}
+
+.bottom {
+    background-color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
